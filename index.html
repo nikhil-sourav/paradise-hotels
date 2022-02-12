@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandey Hotels and Resorts</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> <!-- Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> <!-- Font Montserrat -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+    <div class="container1">
+        <div class="headderbox">
+            <span class="iconify" data-icon="noto:letter-p" style="font-size: 20px;" id="headlogoP"></span>
+            <span class="iconify" data-icon="noto:letter-a" style="font-size: 20px;" id="headlogoA"></span>
+            <span class="iconify" data-icon="noto:letter-n" style="font-size: 20px;" id="headlogoN"></span>
+            <span class="iconify" data-icon="noto:letter-d" style="font-size: 20px;" id="headlogoD"></span>
+            <span class="iconify" data-icon="noto:letter-e" style="font-size: 20px;" id="headlogoE"></span>
+            <span class="iconify" data-icon="noto:letter-y" style="font-size: 20px;" id="headlogoY"></span>
+            <p><br>Hotels & Resorts</p>
+        </div>
+        <a href="SignIn.html" target="_blank">
+            <button class="btn1">Sign In</button>
+        </a>
+        <span>
+            <h4 class="headder" id="bars" onclick="menu">&emsp;<i class="fa fa-bars" style="font-size: 20px;">&emsp;</i></h4>
+            <a href="blog.html" target="_blank" class="headder"><h3>&emsp;Blog</h3></a>
+            <a href="reviews.html" target="_blank" class="headder"><h3>&emsp;Reviews</h3></a>
+            <a href="rooms.html" target="_blank" class="headder"><h3>&emsp;Rooms</h3></a>
+            <a href="support.html" target="_blank" class="headder"><h3>&emsp;Support</h3></a>
+            <a href="facilities.html" target="_blank" class="headder"><h3>&emsp;Facilities</h3></a>
+            <a href="booking.html" target="_blank" class="headder"><h3>&emsp;Booking</h3></a>
+        </span>
+    </div>
+    <div class="container2">
+        <img src="Assets/hotel.jpg" height="580px" id="image1">
+    </div>
+    <div class="box">
+        <i class="fa fa-calendar" id="inCalendar"></i>
+        <input placeholder="Check In" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="indate">
+        <i class="fa fa-calendar" id="outCalendar"></i>
+        <input placeholder="Check Out" class="date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="outdate">
+        <p><span class="glyphicon glyphicon-user" id="userIcon"></span></p>
+        <input type="number" class="room" placeholder="Adults" id="adults">
+        <input type="number" class="room" placeholder="Children" id="children">
+        <input type="number" class="room" placeholder="Rooms" id="rooms">
+    </div>
+    <a href="https://google.com" target="_blank">
+        <button id="searchBtn">
+            <span class="glyphicon glyphicon-search" id="searchIcon"></span>
+        </button>
+    </a>
+    <div class="vl" id="vl1"></div>
+    <div class="vl" id="vl2"></div>
+    <div class="text1">
+        <h1><strong>Find suitable rooms<br>in Pandey Hotels,<br>Just search here</strong></h1>
+        <span>The right property for you.<br>Big range of top-rated properties.<br>price guarantee.</span>
+    </div>
+    <div class="box2">
+        <h2><b>Rooms we recommend<br>for our customers</b></h2>
+        <a href="AllRooms.html" target="_blank">
+            <button id="btn2">View All Rooms</button>
+        </a>
+    </div>
+    <div class="container3">
+        <img src="Assets/room2.jpg" width="350px" height="300px" id="img2">
+        <div class="box3">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Deluxe Contrast Room</b></h4>
+            <i class="fa fa-bed" id="bedIcon1">&nbsp;2</i>
+            <i class="fa fa-bath" id="bathIcon1">&nbsp;<b>1</b></i>
+            <i class="material-icons" id="sizeIcon1">aspect_ratio</i>
+            <p class="sizeText" id="sizeText1">144</p>
+            <i class="fa fa-usd" aria-hidden="true" id="dollarIcon1"><b style="font-family: 'Poppins', sans-serif;">85</b><span id="spanText1">/day</span></i>
+        </div>
+    </div>
+    <div class="container4">
+        <img src="Assets/room5.jpg" width="350px" height="300px" id="img3">
+        <div class="box4">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Single Contrast Room</b></h4>
+            <i class="fa fa-bed" id="bedIcon1">&nbsp;1</i>
+            <i class="fa fa-bath" id="bathIcon1">&nbsp;<b>1</b></i>
+            <i class="material-icons" id="sizeIcon1">aspect_ratio</i>
+            <p class="sizeText" id="sizeText1">80</p>
+            <i class="fa fa-usd" aria-hidden="true" id="dollarIcon2"><b style="font-family: 'Poppins', sans-serif;">99</b><span id="spanText1">/day</span></i>
+        </div>
+    </div>
+    <div class="container5">
+        <img src="Assets/room3.jpg" width="350px" height="300px" id="img4">
+        <div class="box5">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>Single Contrast Room</b></h4>
+            <i class="fa fa-bed" id="bedIcon1">&nbsp;3</i>
+            <i class="fa fa-bath" id="bathIcon1">&nbsp;<b>1</b></i>
+            <i class="material-icons" id="sizeIcon1">aspect_ratio</i>
+            <p class="sizeText" id="sizeText1">212</p>
+            <i class="fa fa-usd" aria-hidden="true" id="dollarIcon3"><b style="font-family: 'Poppins', sans-serif;">145</b><span id="spanText1">/day</span></i>
+        </div>
+    </div>
+    <button type="button" id="btn3" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+    <button type="button" id="btn4" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+    <button type="button" id="btn5" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+    <div class="discount" id="disc1">
+        <h5>20% OFF</h5>
+    </div>
+    <div class="discount" id="disc2">
+        <h5>30% OFF</h5>
+    </div>
+    <div class="discount" id="disc3">
+        <h5>40% OFF</h5>
+    </div>
+    <div class="container6">
+        <h1 style="text-align: center;"><b>See the facilities we<br>provide in real time<br><br><br> </b></h1>
+        <span class="iconify" data-icon="emojione:laptop-computer" style="font-size: 30px;" id="pvtIcon"></span>
+        <span class="iconify" data-icon="emojione:laptop-computer" style="font-size: 30px;" id="outIcon"></span>
+        <span class="iconify" data-icon="emojione-monotone:person-swimming" style="font-size: 30px;" id="poolIcon"></span>
+        <span class="iconify" data-icon="iconoir:parking" style="font-size: 30px;" id="parkingIcon"></span>
+        <span class="iconify" data-icon="feather:wifi" style="font-size: 30px;" id="wifiIcon"></span>
+        <span class="iconify" data-icon="whh:coffee" style="font-size: 30px;" id="coffeeIcon"></span>
+        <span class="iconify" data-icon="pepicons:electricity" style="font-size: 30px;" id="electricityIcon"></span>
+        <span class="iconify" data-icon="mdi:washing-machine" style="font-size: 30px;" id="washingIcon"></span>
+        <span class="iconify" data-icon="icon-park-outline:dumbbell" style="font-size: 30px;" id="dumbbellIcon"></span> 
+        <h3 class="facilites" id="pvtText"><b>Private Workspace</b></h3>
+        <h3 class="facilites" id="outText"><b>Outdoor Workspace</b></h3>
+        <h3 class="facilites" id="poolText"><b>Swimming Pool</b></h3>
+        <h3 class="facilites" id="parkingText"><b>Parking Area</b></h3>
+        <h3 class="facilites" id="wifiText"><b>Free WiFi</b></h3>
+        <h3 class="facilites" id="coffeeText"><b>Breakfast</b></h3>
+        <h3 class="facilites" id="electricityText"><b>Free Electricity</b></h3>
+        <h3 class="facilites" id="washingText"><b>Laundry Service</b></h3>
+        <h3 class="facilites" id="dumbbellText"><b>Others</b></h3>
+    </div>
+    <div class="box6">
+        <h2 style="font-family: 'Poppins', sans-serif;">We organize the most popular<br>facilities to our customers</h2>
+    </div>
+    <div class="container7">
+        <img src="Assets/https://image.freepik.com/free-vector/hand-drawn-one-line-art-illustration_23-2149273654.jpg" id="img5">
+        <img src="Assets/restaurant.jpg" id="imgRest">
+        <div class="textRest">
+            <h2 style="font-family: 'Poppins', sans-serif;">Restaurant<br></h2>
+            <h3>A restaurant or an eatery, is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services</h3>
+            <button class="visitNow" id="btn6">Visit Now</button>
+        </div>
+    </div>
+    <div class="container8">
+        <img src="Assets/https://image.freepik.com/free-vector/hand-drawn-one-line-art-illustration_23-2149273654.jpg" id="img6">
+        <img src="Assets/gym.jpg" id="imgGym">
+        <div class="textGym">
+            <h2 style="font-family: 'Poppins', sans-serif;">GYM Center<br></h2>
+            <h3>Fitness clubs or gyms may defined as any person, firm, corporation, organization, club or association engaged in the scale of instruction, triaining, or assistance in a program of physical exercise or weight reduction</h3>
+            <button class="visitNow" id="btn7">Visit Now</button>
+        </div>
+    </div>
+    <div class="container9">
+        <img src="Assets/https://image.freepik.com/free-vector/hand-drawn-one-line-art-illustration_23-2149273654.jpg" id="img7">
+        <img src="Assets/swimmingpool.jpg" id="imgPool">
+        <div class="textPool">
+            <h2 style="font-family: 'Poppins', sans-serif;">Swimming Pool<br></h2>
+            <h3>Swimming pool are places of relaxation, ease, calmness and pleasure. These dreams could also indicate repressing emotions and feeling bad because of that. This dream could indicate thet you need to get in touch with your feelings</h3>
+            <button class="visitNow" id="btn8">Visit Now</button>
+        </div>
+    </div>
+    <div class="box7">
+        <h2 style="font-family: 'Poppins', sans-serif;">Save an extra 5-10% on every<br>room booking</h2>
+        <div id="arrowBox">
+            <button class="arrow" id="leftArrow"><span class="iconify" data-icon="dashicons:arrow-left-alt2" style="font-size: 20px;"></span></button>
+            <button class="arrow" id="rightArrow"><span class="iconify" data-icon="dashicons:arrow-right-alt2" style="font-size: 20px;"></span></button>
+        </div>
+    </div>
+    <div class="box8" style="font-family: 'Poppins', sans-serif;">
+        <ul> 
+            <li style="width: 113px;"><a href="bedroom.html" class="shortCuts"><h3>Bedroom</h3><br></a></li>
+            <li style="width: 177px;"><a href="meetingroom.html" class="shortCuts"><h3>Meeting Room</h3><br></a></li>
+            <li style="width: 150px;"><a href="guestroom.html" class="shortCuts"><h3>Guest Room</h3><br></a></li>
+            <li style="width: 150px;"><a href="workspace.html" class="shortCuts"><h3>Workspaces</h3><br></a></li>
+            <li style="width: 148px;"><a href="gym.html" class="shortCuts"><h3>Gym Center</h3><br></a></li>
+            <li style="width: 190px;"><a href="swimmingpool.html" class="shortCuts"><h3>Swimming Pool</h3></a></li>
+        </ul>
+    </div>
+    <div class="container10">
+        <div class="box9"></div>
+        <div class="guestroom1">
+            <img src="Assets/guestroom1.jpg" alt="Retry" class="imgGuestroom" id="imgGuestroom1">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>&emsp;Double Guest Room<br></b></h4>
+            <span class="iconify" data-icon="mdi:bed" id="guestbedIcon1"></span>
+            <span class="iconify" data-icon="jam:bathtub-f" id="guestbathIcon1"></span>
+            <span class="iconify" data-icon="bi:aspect-ratio-fill" id="guestsizeIcon1"></span>
+            <span class="iconify" data-icon="fontisto:dollar" id="guestdollarIcon1"></span>
+            <button type="button" id="btn9" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+            <p class="guestIconText" id="guestbedIconText1"><b>2</b></p>
+            <p class="guestIconText" id="guestbathIconText1"><b>2</b></p>
+            <p class="guestIconText" id="guestsizeIconText1"><b>144</b></p>
+            <p class="guestIconText" id="guestdollarIconText1"><b>99</b></p>
+            <p class="guestdollarIconText1"><b>/day</b></p>
+        </div>
+        <div class="guestroom2">
+            <img src="Assets/guestroom2.jpg" alt="Retry" class="imgGuestroom" id="imgGuestroom2">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>&emsp;Deluxe Guest Room<br></b></h4>
+            <button type="button" id="btn10" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+            <span class="iconify" data-icon="mdi:bed" id="guestbedIcon2"></span>
+            <span class="iconify" data-icon="jam:bathtub-f" id="guestbathIcon2"></span>
+            <span class="iconify" data-icon="bi:aspect-ratio-fill" id="guestsizeIcon2"></span>
+            <span class="iconify" data-icon="fontisto:dollar" id="guestdollarIcon2"></span>
+            <p class="guestIconText" id="guestbedIconText1"><b>2</b></p>
+            <p class="guestIconText" id="guestbathIconText1"><b>2</b></p>
+            <p class="guestIconText" id="guestsizeIconText1"><b>212</b></p>
+            <p class="guestIconText" id="guestdollarIconText1"><b>110</b></p>
+            <p class="guestdollarIconText1"><b>/day</b></p>
+        </div>
+        <div class="guestroom3">
+            <img src="Assets/guestroom3.jpg" alt="Retry" class="imgGuestroom" id="imgGuestroom3">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>&emsp;Double Guest Room<br></b></h4>
+            <button type="button" id="btn10" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+            <span class="iconify" data-icon="mdi:bed" id="guestbedIcon2"></span>
+            <span class="iconify" data-icon="jam:bathtub-f" id="guestbathIcon2"></span>
+            <span class="iconify" data-icon="bi:aspect-ratio-fill" id="guestsizeIcon2"></span>
+            <span class="iconify" data-icon="fontisto:dollar" id="guestdollarIcon2"></span>
+            <p class="guestIconText" id="guestbedIconText1"><b>3</b></p>
+            <p class="guestIconText" id="guestbathIconText1"><b>2</b></p>
+            <p class="guestIconText" id="guestsizeIconText1"><b>203</b></p>
+            <p class="guestIconText" id="guestdollarIconText1"><b>130</b></p>
+            <p class="guestdollarIconText3"><b>/day</b></p>
+        </div>
+        <div class="guestroom4">
+            <img src="Assets/guestroom4.jpg" alt="Retry" class="imgGuestroom" id="imgGuestroom4">
+            <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b>&emsp;Deluxe Guest Room<br></b></h4>
+            <button type="button" id="btn10" class="viewButton"><span class="iconify" data-icon="bytesize:arrow-right" style="color: white; font-size: 24px;"></span></button>
+            <span class="iconify" data-icon="mdi:bed" id="guestbedIcon2"></span>
+            <span class="iconify" data-icon="jam:bathtub-f" id="guestbathIcon2"></span>
+            <span class="iconify" data-icon="bi:aspect-ratio-fill" id="guestsizeIcon2"></span>
+            <span class="iconify" data-icon="fontisto:dollar" id="guestdollarIcon2"></span>
+            <p class="guestIconText" id="guestbedIconText1"><b>3</b></p>
+            <p class="guestIconText" id="guestbathIconText1"><b>2</b></p>
+            <p class="guestIconText" id="guestsizeIconText1"><b>253</b></p>
+            <p class="guestIconText" id="guestdollarIconText1"><b>150</b></p>
+            <p class="guestdollarIconText3"><b>/day</b></p>
+        </div>
+    </div>
+    <div class="box10">
+        <img src="Assets/man.png" class="imgMan">
+    </div>
+    <div class="container11" style="font-family: 'Poppins', sans-serif;">
+        <h3>Floyd Miles</h3>
+        <p style="width: 110px; color: rgb(92, 91, 91);">IT Professional<br></p>
+        <span class="iconify" data-icon="twemoji:star" data-width="22" data-height="22" id="starIcon"></span>
+        <span class="iconify" data-icon="twemoji:star" data-width="22" data-height="22" id="starIcon"></span>
+        <span class="iconify" data-icon="twemoji:star" data-width="22" data-height="22" id="starIcon"></span>
+        <span class="iconify" data-icon="twemoji:star" data-width="22" data-height="22" id="starIcon"></span>
+        <span class="iconify" data-icon="twemoji:star" data-width="22" data-height="22" id="starIcon"></span>
+        <h4><br><br>"The bed was extremely comfortable. Everything was great at this<br>appartment .. amazing that is friendly and makes customers feel welcome.<br>I'll be back in a month! I will definitely stay there when i come back!"<br><br><br></h4>
+        <button class="arrow" id="leftArrow1"><span class="iconify" data-icon="dashicons:arrow-left-alt2" style="font-size: 20px;"></span></button>
+        <button class="arrow" id="rightArrow1"><span class="iconify" data-icon="dashicons:arrow-right-alt2" style="font-size: 20px;"></span></button>
+    </div>
+    <div class="container12" style="font-family: 'Poppins', sans-serif;">
+        <div class="box11">
+            <h1 class="discountHeadder" style="text-align: center;">Subscribe &<br>get special discount<br><br></h1>
+            <p style="font-size: 15px; text-align: center;">Don't wanna miss something? Subscribe right now and get special discount and<br>monthly newsletter<br><br><br><br></p>
+            <input type="email" placeholder="Enter your Email Address"  id="email">
+            <button type="button" id="subsBtn">Subscribe</button>
+        </div>
+    </div>
+    <footer class="footer" style="font-family: 'Poppins', sans-serif;">
+        <span class="iconify" data-icon="noto:letter-p" style="font-size: 30px;" id="logoP"></span>
+        <span class="iconify" data-icon="noto:letter-a" style="font-size: 30px;" id="logoA"></span>
+        <span class="iconify" data-icon="noto:letter-n" style="font-size: 30px;" id="logoN"></span>
+        <span class="iconify" data-icon="noto:letter-d" style="font-size: 30px;" id="logoD"></span>
+        <span class="iconify" data-icon="noto:letter-e" style="font-size: 30px;" id="logoE"></span>
+        <span class="iconify" data-icon="noto:letter-y" style="font-size: 30px;" id="logoY"></span>
+        <p style="font-size: 20px;">Hotels & Resorts<br></p>
+        <p><br><br>The right property for you. Big<br>range of top-rated properties.<br>Price guarantee<br><br><br></p>
+        <a href="https://facebook.com" target="_blank"><span class="iconify" data-icon="logos:facebook" style="font-size: 20px;" id="iconFacebook"></span></a>
+        <a href="https://twitter.com" target="_blank"><span class="iconify" data-icon="logos:twitter" style="font-size: 20px;" id="iconTwitter"></span></a>
+        <a href="https://instagram.com" target="_blank"><span class="iconify" data-icon="akar-icons:instagram-fill" style="font-size: 20px;" id="iconInstagram"></span></a>
+        <a href="https://youtube.com" target="_blank"><span class="iconify" data-icon="logos:youtube-icon" style="font-size: 20px;" id="iconYoutube"></span></a>
+        <div class="box12">
+            <h3 class="quicklink">Quick Links<br><br><br></h3>
+            <ul>
+                <li><h4>Booking<br><br></h4></li>
+                <li><h4>Support<br><br></h4></li>
+                <li><h4>Blog<br><br></h4></li>
+                <li><h4>Reviews<br><br></h4></li>
+                <li><h4>Rooms</h4></li>
+            </ul>
+        </div>
+        <div class="box13">
+            <h3 class="quicklink">Company<br><br><br></h3>
+            <ul>
+                <li><h4>Global Location<br><br></h4></li>
+                <li><h4>Mission<br><br></h4></li>
+                <li><h4>Career<br><br></h4></li>
+                <li><h4>Investor<br><br></h4></li>
+                <li><h4>Privacy Policy</h4></li>
+            </ul>
+        </div>
+        <div class="box14">
+            <h3 class="quicklink">Legal Information<br><br><br></h3>
+            <ul>
+                <li><h4>Term of use</h4></h4></li>
+                <li><h4><br>Privacy Policy<br></h4></li>
+                <li><h4><br>Hotel Licesnse Agreement</h4></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,1138 @@
+body{
+    height: 7000px;
+}
+.headderbox{
+    /* border: solid black 2px; */
+    position: relative;
+    top: 0px;
+}
+.container1{
+    /* border: solid black 2px; */
+    width: 1095px;
+    margin: auto;
+    padding-top: 10px;
+}
+#headlogoP{
+    position: relative;
+    top: 15px;
+    right: 3px;
+}
+#headlogoA{
+    position: relative;
+    top: 15px;
+    right: 11px;
+}
+#headlogoN{
+    position: relative;
+    top: 15px;
+    right: 16px;
+}
+#headlogoD{
+    position: relative;
+    top: 15px;
+    right: 21px;
+}
+#headlogoE{
+    position: relative;
+    top: 15px;
+    right: 27px;
+}
+#headlogoY{
+    position: relative;
+    top: 15px;
+    right: 33px;
+}
+.headder{
+    float: right;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    bottom: 8px;
+}
+#bars{
+    position: relative;
+    bottom: 15px;
+}
+.headder:hover{
+    text-decoration: none;
+}
+.btn1{
+    float: right;
+    border: solid black 3px;
+    border-radius: 40px;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 90px;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+}
+.btn1:hover{
+    color: white;
+    background-color: black;
+}
+.container2{
+    width: 1100px;
+    margin: auto;
+    padding-left: 2px;
+    /* margin-left: 8px; */
+    /* margin-right: 10px; */
+    /* padding-top: 10px; */
+}
+img{
+    /* border-top-left-radius: 50px; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.text1{
+    color: black;
+    position: relative;
+    bottom: 840px;
+    left: 840px;
+}
+.box{
+    background-color: white;
+    border: solid black 2px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    height: 90px;
+    width: 900px;
+    border-radius: 70px;
+    margin: auto;
+    position: relative;
+    bottom: 45px;
+}
+#inCalendar{
+    color: rgb(36, 33, 33);
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+#outCalendar{
+    color: rgb(36, 33, 33);
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+#indate{
+    /* background-color: yellowgreen; */
+    height: 30px;
+    width: 120px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    border: none;
+}
+#vl1{
+    border: solid rgb(0, 0, 0, 0.521) 1px;
+    width: 0px;
+    height: 60px;
+    position: relative;
+    bottom: 210px;
+    left: 420px;
+}
+#outdate{
+    /* background-color: yellowgreen; */
+    height: 30px;
+    width: 120px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    border: none;
+}
+#vl2{
+    border: solid rgba(0, 0, 0, 0.521) 1px;
+    width: 0px;
+    height: 60px;
+    position: relative;
+    bottom: 270px;
+    left: 610px;
+}
+#userIcon{
+    color: rgb(83, 77, 77);
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 405px;
+}
+.room{
+    height: 30px;
+    width: 80px;
+    position: relative;
+    top: -35px;
+    left: 430px;
+    border: none;
+}
+#searchBtn{
+    border: solid black 2px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    background-color: black;
+    height: 90px;
+    width: 200px;
+    margin-right: 225px;
+    position: relative;
+    bottom: 135px;
+    left: 924px;
+}
+#searchIcon{
+    /* color: white; */
+    font-size: 30px;
+}
+.searchBtn:hover{
+    /* color: black; */
+    background-color: rgb(175, 175, 252);
+}
+.searchBtn:focus{
+    outline: none;
+}
+.box2{
+    /* border: solid black 2px; */
+    width: 1095px;
+    margin: auto;
+    position: relative;
+    bottom: 250px;
+}
+#btn2{
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 70px;
+    height: 50px;
+    width: 150px;
+    border: solid black 3px;
+    border-radius: 50px;
+    padding-top: 7px;
+}
+#btn2:hover{
+    color: white;
+    background-color: black;
+}
+.container3{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 440px;
+    width: 350px;
+    margin-left: 125px;
+    position: relative;
+    bottom: 206px;
+}
+#img2{
+    /* border: solid black 2px; */
+    margin-left: 0px;
+    /* margin-bottom: 300px; */
+    /* margin-top: -80px; */
+}
+.box3{
+    /* border: solid black 2px; */
+    height: 130px;
+    width: 350px;
+    margin-left: 120px;
+    padding-left: 14px;
+    padding-top: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    top: 0px;
+    right: 122px;
+}
+.container3:hover{
+    background-color: blanchedalmond;
+}
+#bedIcon1{
+    position: relative;
+    bottom: 5px;
+    left: 1px;
+    color: rgb(99, 97, 97);
+}
+#bathIcon1{
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+    color: rgb(99, 97, 97);
+}
+#sizeIcon1{
+    /* font-size: 20px; */
+    /* font-weight: 1100; */
+    position: relative;
+    left: 60px;
+    top: 2px;
+    color: rgb(99, 97, 97);
+}
+.sizeText{
+    font-weight: 600;
+    color: rgb(99, 97, 97);
+}
+#sizeText1{  
+    position: relative;
+    left: 145px;
+    bottom: 24px;
+}
+#dollarIcon1{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+}
+#spanText1{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(92, 91, 91);
+    position: relative;
+    bottom: 2px;
+}
+.container4{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 444px;
+    width: 351px;
+    margin-left: 500px;
+    position: relative;
+    bottom: 645px;
+}
+#img3{
+    /* border: solid black 2px; */
+    margin-left: 0px;
+    /* position: relative;
+    bottom: 430px; */
+}
+#dollarIcon2{
+    font-size: 20px;
+    position: relative;
+    top: -22px;
+    right: 0px;
+}
+.box4{
+    /* border: solid black 2px; */
+    height: 130px;
+    width: 352px;
+    margin-left: 0px;
+    position: relative;
+    top: 5px;
+    bottom: 0px;
+    padding-left: 14px;
+    padding-top: 6px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.container4:hover{
+    background-color: blanchedalmond;
+}
+.container5{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    margin-left: 880px;
+    height: 440px;
+    width: 350px;
+    position: relative;
+    bottom: 1090px;
+}
+#img4{
+    position: relative;
+    bottom: 48px;
+    top: 0px;
+}
+#dollarIcon3{
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.box5{
+    /* border: solid black 2px; */
+    height: 140px;
+    width: 354px;
+    position: relative;
+    top: 2px;
+    /* top: 1px; */
+    right: 2px;
+    padding-left: 17px;
+    padding-top: 8px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.container5:hover{
+    background-color: blanchedalmond;
+}
+.viewButton{
+    border: solid black 2px;
+    height: 40px;
+    width: 70px;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    padding-top: 2px;
+}
+.viewButton:hover{
+    color: black;
+    background-color: rgb(186, 210, 253);
+}
+.viewButton:focus{
+    outline: none;
+}
+#btn3{
+    margin-left: 395px;
+    position: relative;
+    bottom: 1280px;
+}
+#btn4{
+    margin-left: 300px;
+    position: relative;
+    bottom: 1280px;
+}
+#btn5{
+    margin-left: 308px;
+    position: relative;
+    bottom: 1280px;
+}
+.discount{
+    border: solid black 2px;
+    height: 40px;
+    width: 90px;
+    border-radius: 40px;
+    padding-left: 12px;
+    padding-top: 2px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+#disc1{
+    margin-left: 375px;
+    position: relative;
+    bottom: 1560px;
+}
+#disc2{
+    margin-left: 750px;
+    position: relative;
+    bottom: 1600px;
+}
+#disc3{
+    margin-left: 1130px;
+    position: relative;
+    bottom: 1640px;
+}
+.container6{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    background-color: rgb(245, 245, 245);
+    height: 670px;
+    width: 1095px;
+    margin: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    position: relative;
+    bottom: 1100px;
+}
+#pvtIcon{
+    float: left;
+    position: relative;
+    left: 87px;
+}
+#outIcon{
+    position: relative; 
+    bottom: 150px;
+    left: 320px;
+}
+#poolIcon{
+    /* margin-left: 50px; */
+    float: right;
+    position: relative;
+    right: 75px;
+}
+#parkingIcon{
+    float: left;
+    margin-top: 150px;
+    position: relative;
+    right: 0px;
+    left: 55px;
+}
+#wifiIcon{
+    position: relative;
+    bottom: 0px;
+    left: 285px;
+}
+#coffeeIcon{
+    float: right;
+    margin-top: 150px;
+    position: relative;
+    left: -40px;
+    /* right: 100px; */
+}
+#electricityIcon{
+    float: left;
+    margin-top: 300px;
+    position: relative;
+    right: 0px;
+    left: 20px;
+}
+#washingIcon{
+    margin: auto;
+    margin-top: 300px;
+    position: relative;
+    left: 250px;
+}
+#dumbbellIcon{
+    float: right;
+    margin-top: 300px;
+    position: relative;
+    left: -10px;
+}
+#pvtText{    
+    position: relative;
+    bottom: 300px;
+}
+#outText{    
+    position: relative;
+    bottom: 348px;
+    left: 320px;
+}
+#poolText{    
+    position: relative;
+    bottom: 395px;
+    left: 674px;
+}
+#parkingText{    
+    position: relative;
+    bottom: 295px;
+    left: 30px;
+}
+#wifiText{    
+    position: relative;
+    bottom: 340px;
+    left: 375px;
+}
+#coffeeText{    
+    position: relative;
+    bottom: 390px;
+    left: 710px;
+}
+#electricityText{    
+    position: relative;
+    bottom: 290px;
+    left: 20px;
+}
+#washingText{    
+    position: relative;
+    bottom: 335px;
+    left: 340px;
+}
+#dumbbellText{    
+    position: relative;
+    bottom: 380px;
+    left: 725px;
+}
+.box6{
+    /* border: solid black 2px; */
+    height: 100px;
+    width: 1095px;
+    margin: auto;
+    position: relative;
+    bottom: 920px;
+    text-align: center;
+}
+.container7{
+    /* border: solid black 2px; */
+    height: 600px;
+    width: 1095px;
+    margin-left: 127px;
+    position: relative;
+    bottom: 880px;
+    /* background-color: rgb(252, 221, 210); */
+}
+#img5{
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+    position: relative;
+    top: 296px;
+}
+#imgRest{
+    height: 500px; 
+    width: 500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    right: 150px;
+    top: 20px;
+}
+.textRest{
+    /* border: solid black 2px; */
+    /* height: 500px; */
+    font-weight: 900;
+    width: 400px;
+    float: right;
+    position: relative;
+    bottom: 420px;
+}
+.visitNow{
+    border: solid black 3px;
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+}
+.visitNow:hover{
+    color: white;
+    background-color: black;
+}
+#btn6{
+    position: relative;
+    top: 60px;
+}
+.container8{
+    /* border: solid black 2px; */
+    height: 525px;
+    width: 1095px;
+    margin-left: 127px;
+    position: relative;
+    bottom: 880px; 
+    /* background-color: rgb(252, 221, 210); */
+}
+#img6{
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: right;
+    position: relative;
+    top: 220px;
+    left: 400px;
+}
+#imgGym{
+    height: 430px; 
+    width: 500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: right;
+    position: relative;
+    bottom: 290px;
+    right: 160px;
+}
+.textGym{
+    /* border: solid black 2px; */
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.visitNow{
+    border: solid black 3px;
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    position: relative;
+    top: 40px;
+}
+.visitNow:hover{
+    color: white;
+    background-color: black;
+}
+/* #btn7{
+    position: relative;
+    top: 60px;
+} */
+.container9{
+    /* border: solid black 2px; */
+    height: 525px;
+    width: 1095px;
+    margin-left: 127px;
+    position: relative;
+    bottom: 880px; 
+    /* background-color: rgb(252, 221, 210); */
+}
+#img7{
+    height: 300px;
+    width: 300px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    float: left;
+    position: relative;
+    top: 205px;
+}
+#imgPool{
+    height: 400px;
+    width: 500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    right: 150px;
+    bottom: 180px;
+}
+.textPool{
+    /* border: solid black 2px; */
+    height: 400px;
+    width: 400px;
+    float: right;
+    position: relative;
+    bottom: 570px;
+}
+.visitNow{
+    border: solid black 3px;
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    position: relative;
+    top: 40px;
+}
+.visitNow:hover{
+    color: white;
+    background-color: black;
+}
+#btn8{
+    position: relative;
+    top: 40px;
+}
+.box7{
+    /* border: solid black 2px; */
+    width: 1095px;
+    margin: auto;
+    position: relative;
+    bottom: 800px;
+}
+.arrow{
+    border: solid black 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: rgb(224, 224, 224);
+}
+.arrow:hover{
+    color: white;
+    background-color: black;
+}
+#rightArrow{
+    border: none;
+    float: right;
+    position: relative;
+    left: 430px;
+    bottom: 55px;
+}
+#rightArrow:focus{
+    outline: none;
+}
+#leftArrow{
+    border: none;
+    float: right;
+    position: relative;
+    left: 330px;
+    bottom: 55px;
+}
+#leftArrow:focus{
+    outline: none;
+}
+.box8{
+    /* border: solid black 2px; */
+    width: 400px;
+    margin-left: 127px;
+    position: relative;
+    bottom: 745px;
+    right: 40px;
+}
+.shortCuts{
+    color: black;
+}
+.shortCuts:hover{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}.container10{
+    /* border: solid black 2px; */
+    overflow-x: hidden;
+    overflow-y: hidden  ;
+    height: 625px;
+    width: 724px;
+    position: relative;
+    left: 500px;
+    bottom: 1162px;
+}
+.container10::-webkit-scrollbar{
+    width: 12px;
+    height: 8px;
+}
+.container10::-webkit-scrollbar-track{
+    /* border: solid black 1px; */
+    border-radius: 10px;
+}
+.container10::-webkit-scrollbar-thumb{
+    background: rgb(189, 188, 188);
+    border-radius: 10px;
+}
+.container10::-webkit-scrollbar-thumb:hover{
+    background: rgb(134, 134, 134);
+}
+.container10:hover{
+    overflow-x: auto;
+}
+.box9{
+    /* border: solid black 2px; */
+    background: rgb(245, 245, 245);
+    height: 360px;
+    width: 1650px;
+    border-radius: 30px;
+}
+.imgGuestroom{
+    /* border: solid black 2px; */
+    height: 400px;
+    width: 350px;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+.guestroom1{
+    /* border: solid black 2px; */
+    height: 540px;
+    width: 350px;
+    border-radius: 30px;
+    position: relative;
+    left: 50px;
+    bottom: 310px;
+}
+.guestroom1:hover{
+    background: blanchedalmond ;
+}
+#btn9{
+    position: relative;
+    left: 180px;
+    bottom: 95px;
+}
+#guestbedIcon1{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+#guestbathIcon1{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+}
+#guestsizeIcon1{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 122px;
+}
+#guestdollarIcon1{
+    color: black;
+    font-size: 23px;
+    position: relative;
+    top: 40px;
+    right: 50px;
+}
+.guestIconText{
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+#guestbedIconText1{
+    position: relative;
+    bottom: 29px;
+    left: 42px;
+}
+#guestbathIconText1{
+    position: relative;
+    bottom: 59px;
+    left: 113px;
+}
+#guestsizeIconText1{
+    position: relative;
+    bottom: 87px;
+    left: 193px;
+}
+#guestdollarIconText1{
+    position: relative;
+    bottom: 85px;
+    left: 35px;
+    font-size: 22px;
+}
+.guestdollarIconText1{
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    bottom: 119px;
+    left: 63px;
+}
+.guestroom2{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 540px;
+    width: 350px;
+    position: relative;
+    bottom: 850px;
+    left: 450px;
+}
+.guestroom2:hover{
+    background: blanchedalmond;
+}
+#btn10{
+    position: relative;
+    left: 265px;
+    bottom: 95px;
+}
+#guestbedIcon2{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    position: relative;
+    right: 54px;
+}
+#guestbathIcon2{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    position: relative;
+    left: -4px;
+}
+#guestsizeIcon2{
+    color: rgb(99, 97, 97);
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 48px;
+}
+#guestdollarIcon2{
+    color: black;
+    font-size: 23px;
+    position: relative;
+    top: 39px;
+    right: 125px;
+}
+#guestbedIconText2{
+    position: relative;
+    bottom: 29px;
+    left: 42px;
+}
+#guestbathIconText2{
+    position: relative;
+    bottom: 59px;
+    left: 113px;
+}
+#guestsizeIconText2{
+    position: relative;
+    bottom: 87px;
+    left: 193px;
+}
+#guestdollarIconText2{
+    position: relative;
+    bottom: 85px;
+    left: 35px;
+    font-size: 22px;
+}
+.guestdollarIconText2{
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    bottom: 119px;
+    left: 63px;
+}
+.guestroom3{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 540px;
+    width: 350px;
+    position: relative;
+    bottom: 1390px;
+    left: 850px;
+}
+.guestroom3:hover{
+    background: blanchedalmond;
+}
+.guestdollarIconText3{
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    bottom: 119px;
+    left: 69px;
+}
+.guestroom4{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 540px;
+    width: 350px;
+    position: relative;
+    bottom: 1930px;
+    left: 1250px;
+}
+.guestroom4:hover{
+    background: blanchedalmond;
+}
+.guestIconText{
+    /* border: solid black 2px; */
+    width: 100px;
+}
+.box10{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+    background: rgb(245, 245, 245);
+    position: relative;
+    bottom: 1100px;
+    left: 127px;
+}
+.imgMan{
+    height: 372px;
+    width: 360px;
+    position: relative;
+    right: 6px;
+    bottom: 22px;
+}
+.container11{
+    /* border: solid black 2px; */
+    height: 360px;
+    width: 700px;
+    position: relative;
+    bottom: 1450px;
+    left: 525px;
+}
+#starIcon{
+    position: relative;
+    top: 7px;
+}
+#leftArrow1{
+    border: none;
+}
+#leftArrow1:focus{
+    outline: none;
+}
+#rightArrow1{
+    border: none;
+    position: relative;
+    left: 15px;
+}
+#rightArrow1:focus{
+    outline: none;
+}
+.container12{
+    /* border: solid black 2px; */
+    border-radius: 30px;
+    height: 700px;
+    width: 1095px;
+    margin: auto;
+    background: rgb(245, 245, 245);
+    position: relative;
+    bottom: 1400px;
+}
+#discountHeadder{
+    position: relative;
+    top: 200px;
+}
+#email{
+    /* border: solid black 2px; */
+    border: none;
+    box-shadow: rgb(215 212 212) 10px 10px 45px;
+    border-radius: 40px;
+    height: 80px;
+    width: 600px;
+    position: relative;
+    left: 245px;
+}
+#emai:focus{
+    background: white;
+}
+#email::placeholder{
+    color: black;
+    position: relative;
+    left: 20px;
+}
+#subsBtn{
+    border: solid black 2px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: white;
+    background: black;
+    height: 80px;
+    width: 150px;
+    position: relative;
+    top: 1px; 
+    left: 92px;
+}
+#subsBtn:focus{
+    outline: none;
+}
+.box11{
+    /* border: solid black 1px; */
+    position: relative;
+    top: 310px;
+}
+.footer{
+    /* border: solid black 2px; */
+    height: 341px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    bottom: 1280px;
+    left: 10px;
+}
+#logoP{
+    position: relative;
+    right: 5px;
+}
+#logoA{
+    position: relative;
+    right: 15px;
+}
+#logoN{
+    position: relative;
+    right: 20px;
+}
+#logoD{
+    position: relative;
+    right: 25px;
+}
+#logoE{
+    position: relative;
+    right: 33px;
+}
+#logoY{
+    position: relative;
+    right: 42px;
+}
+.logo{
+    position: relative;
+    left: 160px;
+    bottom: 43px;
+    color: rgb(64, 192, 231);
+}
+#iconTwitter{
+    position: relative;
+    left: 25px;
+}
+#iconInstagram{
+    color: black;
+    position: relative;
+    left: 40px;
+}
+#iconYoutube{
+    position: relative;
+    left: 65px;
+}
+.box12{
+    /* border: solid black 2px; */
+    width: 300px;
+    position: relative;
+    left: 260px;
+    bottom: 219px;
+}
+.quicklink{
+    position: relative;
+    left: 38px;
+}
+.box13{
+    /* border: solid black 2px; */
+    width: 299px;
+    position: relative;
+    left: 490px;
+    bottom: 545px;
+}
+.box14{
+    /* border: solid black 2px; */
+    width: 300px;
+    position: relative;
+    left: 710px;
+    bottom: 873px;
+}
